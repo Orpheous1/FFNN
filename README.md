@@ -3,4 +3,4 @@ Feedforward Neural Network with 2 hidden layers, implemented in MATLAB with no l
 # How to use
 Run the init.mlx file in MATLAB
 # Parameters
-Set the maximum iterations with MaxIter, lambda with lambda and the number of units in the hidden layers with hidden_layer_size.
+Set the maximum iterations to n with options = optimset('MaxIter', n);, lambda with lambda and the number of units in the hidden layers with hidden_layer_size.
