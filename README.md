@@ -1,4 +1,6 @@
 # FFNN
-Feedforward Neural Network with 2 hidden layers, implemented in MATLAB. 784x784x784(x10)x1 network architecture with 2000 iterations of a BFGS variant achieved 98.34% test accuracy.
+Feedforward Neural Network with 2 hidden layers, implemented in MATLAB with no library dependencies. 784x784x784(x10)x1 network architecture with 2000 iterations of a BFGS variant achieved 98.34% test accuracy.
 # How to use
-Run the init.mlx file
+Run the init.mlx file in MATLAB
+# Parameters
+Set the maximum iterations with MaxIter, lambda with lambda and the number of units in the hidden layers with hidden_layer_size.
